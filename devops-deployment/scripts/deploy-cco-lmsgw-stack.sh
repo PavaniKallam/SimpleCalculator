@@ -40,7 +40,7 @@ echo "cco_s3_deploy nodeenv activated!"
 # deployment of NAS Agent Lambda GW
 echo -e $blue\===S3 Serverless Deployment===$no_color
 if [ "$dep_nas" = true ]; then
-    cd s3serverlessdeployment
+    cd simple-calculator/react-application
    
     sls deploy || exitFunc $?
 else
