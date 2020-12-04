@@ -1,0 +1,44 @@
+
+service: simplecalculatorusingjenkins
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+plugins:
+
+  - serverless-s3-sync
+
+package:
+  exclude:
+    - node_modules/**
+    - package*
+
+custom:
+
+  s3Sync:
+
+    # A simple configuration for copying static assets
+
+    - bucketName: my-serverless-bucket-react-application-jenkins # required
+
+      localDir: react-application # required
+
+functions:
+  hello:
+    handler: handler.hello
+
+resources:
+
+  Resources:
+
+    AssetBucket:
+
+      Type: AWS::S3::Bucket
+
+      Properties:
+
+        BucketName: my-serverless-bucket-react-application-jenkins
+

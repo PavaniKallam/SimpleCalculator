@@ -1,0 +1,8 @@
+# CCO LMSGW
+
+## Steps
+
+| #   | Step                    | Page Link                                                                                                                                                           | Remarks                                                                                                                                                                                        |
+| --- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Deploy Node Environment | [CCO LMSGW Node Environment Deployment](https://gitlab.sharpb2bcloud.com/ssdi-cocoro/cco-lms-gateway/-/tree/master/devops-deployment/manuals/Node_env_deployment.md) | Deployment of Node environment and Serverless plugins. <br>`If the resources are already deployed, please proceed to step 2. This is a one-time execution unless there are necessary updates.` |
+| 2   | Stack Deployment        | [CCO LMGSW Stack Deployment](https://gitlab.sharpb2bcloud.com/ssdi-cocoro/cco-lms-gateway/-/tree/master/devops-deployment/manuals/Stack_deployment.md)               | Deployment of  nas-agent-lambda-gw                                                                                                                                                                       |

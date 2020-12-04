@@ -1,0 +1,8 @@
+env_dir: "{{ home_dir.stdout }}/node_env"
+node_envs:
+  - name: cco_s3_deploy
+    node_version: "12.16.1"
+    plugins:   
+      - "serverless@1.48.0"
+      - "serverless-s3-sync"
+     
