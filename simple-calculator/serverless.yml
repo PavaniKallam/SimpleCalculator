@@ -24,7 +24,7 @@ custom:
 
     - bucketName: my-serverless-bucket-simplecal-application-jenkins # required
 
-      localDir: react-application # required
+      localDir: react-application/build/ # required
 
 functions:
   hello:
