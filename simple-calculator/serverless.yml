@@ -1,5 +1,5 @@
 
-service: simplecalculatorusingjenkins
+service: simplecalcyusingjenkins
 
 frameworkVersion: ">=1.1.0 <2.0.0"
 
@@ -22,7 +22,7 @@ custom:
 
     # A simple configuration for copying static assets
 
-    - bucketName: my-serverless-bucket-simplecal-application-jenkins # required
+    - bucketName: my-serverless-bucket-simplecalcy-application-jenkins # required
 
       localDir: react-application/build/ # required
 
@@ -40,5 +40,5 @@ resources:
 
       Properties:
 
-        BucketName: my-serverless-bucket-simplecal-application-jenkins
+        BucketName: my-serverless-bucket-simplecalcy-application-jenkins
 
