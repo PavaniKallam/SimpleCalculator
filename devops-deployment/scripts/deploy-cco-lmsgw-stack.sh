@@ -42,7 +42,7 @@ echo -e $blue\===S3 Serverless Deployment===$no_color
 if [ "$dep_nas" = true ]; then
  
     cd simple-calculator
-   
+    echo $(pwd)
     sls deploy || exitFunc $?
 else
     echo "Skipped"
