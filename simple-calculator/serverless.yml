@@ -22,7 +22,7 @@ custom:
 
     # A simple configuration for copying static assets
 
-    - bucketName: my-serverless-bucket-react-application-jenkins # required
+    - bucketName: my-serverless-bucket-simplecal-application-jenkins # required
 
       localDir: react-application # required
 
@@ -40,5 +40,5 @@ resources:
 
       Properties:
 
-        BucketName: my-serverless-bucket-react-application-jenkins
+        BucketName: my-serverless-bucket-simplecal-application-jenkins
 
